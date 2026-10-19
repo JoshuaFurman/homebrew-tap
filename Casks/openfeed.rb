@@ -6,25 +6,25 @@ cask "openfeed" do
     end
   end
 
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "6f088b7ff34d23b6aa903c7885c629e061ee92a997cbe80fc6d792a36a87eafe"
+      sha256 "6a6e0dd9dc4a6bcbc1e727347278ff642f6c5315db3b9086058f64a44756e298"
       url "https://github.com/JoshuaFurman/openfeed/releases/download/v#{version}/openfeed_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0d06e3ebf679fd482036ea5e30444cc9c2e995cb4a3d623ae415331a3cb1050c"
+      sha256 "e50972492d885156c85d8a835e3cc1465df3aba7a4972f0a5e5bc828a6648e15"
       url "https://github.com/JoshuaFurman/openfeed/releases/download/v#{version}/openfeed_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7464640f143da09889f07c9bef38bcecba63eb4e4aa6ed2c8258b8e8372f82a7"
+      sha256 "255cfeacd312e2d55cc989d0c4ce6cef3a833e97c3c806622dc78e4a404c3619"
       url "https://github.com/JoshuaFurman/openfeed/releases/download/v#{version}/openfeed_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "46bba72b8764966012f1ab6766b355952c04a185548fd6025fe99037da2651f7"
+      sha256 "cde00d48c35edea60a5396c75850ee22654ee4cccae0bdb5849b28873eea1d01"
       url "https://github.com/JoshuaFurman/openfeed/releases/download/v#{version}/openfeed_#{version}_linux_amd64.tar.gz"
     end
   end
